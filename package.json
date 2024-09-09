@@ -1,0 +1,35 @@
+{
+  "name": "purple-k",
+  "displayName": "Purple K",
+  "description": "My Purple theme",
+  "version": "0.0.1",
+  "publisher": "OrdepK",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pedro-K/My_Purple_Theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "purple theme",
+    "purple-k",
+    "purple-theme",
+    "purple-k-theme",
+    "pedro kleinfelder"
+  ],
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple K",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Purple K-color-theme.json"
+      }
+    ]
+  }
+}
